@@ -118,7 +118,7 @@ ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_category_id" FOREIGN KEY ("ca
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY ("subcategory_id") REFERENCES "subcategory" ("subcategory_id");
 
 ----------------------------------------------------------------------------------------------------------------
---		    Now the tables should be available for queries					  		      --
+--		    Now the tables should be available for queries				  		     --
 ----------------------------------------------------------------------------------------------------------------
 -- NOTE: This schema was originally created from exporting the ERD via https://app.quickdatabasediagrams.com/
 -- and was edited in order to be able to import the .csv files into their respective tables without errors
